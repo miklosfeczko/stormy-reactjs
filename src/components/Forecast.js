@@ -5,7 +5,6 @@ const Forecast = ({data}) => {
   
   return data && data.list ? (
     <div>
-      {console.log(data.list)}
       {data.list.map(single => {
         return (
           <div key={single.dt} className='data__container'>

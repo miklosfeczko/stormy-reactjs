@@ -73,7 +73,7 @@ function App() {
           <Forecast data={forecast.data2} />
         </div>
     </React.Fragment>
-  );
+  )
 }
 
 export default App
